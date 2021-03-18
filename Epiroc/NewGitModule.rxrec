@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="1327dc7c-4c6b-4e19-b406-d278a8e07853"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="NewGitModule"
+	namespace="Epiroc">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<explicitdelayitem
+		duration="300ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+	</recorditems>
+	<repository
+	id="fd8d7988-f188-4fa9-ab96-795176b0f7ab"
+	name="EpirocRepository"
+	relativepath="EpirocRepository.rxrep">
+		<codegen
+		classname="EpirocRepository"
+		namespace="Epiroc">
+		</codegen>
+		<rootfolder
+		id="6f2b0937-858c-4aa0-96dd-4c7a89b06b62"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		NewGitModule.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

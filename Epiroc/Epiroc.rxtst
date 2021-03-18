@@ -337,6 +337,12 @@
 			ref="81130837-86ac-4449-ac2f-948ef4b0876b"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="933fb33f-ca93-4ece-8774-42baf1898f96"
+			name="NewGitModule"
+			ref="1327dc7c-4c6b-4e19-b406-d278a8e07853"
+			type="Recording">
+			</testmodule>
 			<testcase
 			id="9a5561d0-a6ba-4ac8-9178-06a80e013cd1"
 			name="CodeActions">
@@ -903,6 +909,10 @@
 						<testmodule
 						id="f03d4c5a-fbc2-45c4-a77f-a7dc88504d5d"
 						name="RestSharp">
+						</testmodule>
+						<testmodule
+						id="933fb33f-ca93-4ece-8774-42baf1898f96"
+						name="NewGitModule">
 						</testmodule>
 					</testcase>
 				</testcase>

@@ -330,6 +330,18 @@
       <UserCode>true</UserCode>
       <id>6f999827-66a8-4633-8cc8-fb438b72fe56</id>
     </Compile>
+    <Compile Include="NewGitModule.cs">
+      <BoundTo>8fe80267-44af-4c16-910b-6172b824dee0</BoundTo>
+      <DependentUpon>NewGitModule.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>997bfb5b-2f4c-42a2-bf1b-20407ead871f</id>
+    </Compile>
+    <Compile Include="NewGitModule.UserCode.cs">
+      <BoundTo>8fe80267-44af-4c16-910b-6172b824dee0</BoundTo>
+      <DependentUpon>NewGitModule.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2dbc35b2-0a72-47b0-b9ac-2d0c6b8c2acf</id>
+    </Compile>
     <Compile Include="_Nirupan\AUT_Exit.cs">
       <DependentUpon>AUT_Exit.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
@@ -607,6 +619,11 @@
       <BoundTo>fc630be9-1497-4a27-ae05-0b4dbb127bd2</BoundTo>
       <id>dc3d1c38-2e66-4784-90ea-ffa9f32b6e9a</id>
       <recordtableid>c20f28c4-1cb1-4f22-a337-b662d77cbd63</recordtableid>
+    </None>
+    <None Include="NewGitModule.rxrec">
+      <BoundTo>fc630be9-1497-4a27-ae05-0b4dbb127bd2</BoundTo>
+      <id>8fe80267-44af-4c16-910b-6172b824dee0</id>
+      <recordtableid>1327dc7c-4c6b-4e19-b406-d278a8e07853</recordtableid>
     </None>
     <None Include="_Nirupan\AUT_Exit.rxrec">
       <BoundTo>fc630be9-1497-4a27-ae05-0b4dbb127bd2</BoundTo>
