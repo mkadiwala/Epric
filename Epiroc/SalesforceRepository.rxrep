@@ -1,0 +1,112 @@
+﻿<repository
+id="b36d5be8-6efc-4a2f-88ac-3c51dbbf1683"
+name="SalesforceRepository">
+	<codegen
+	classname="SalesforceRepository"
+	namespace="Epiroc">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="f5e4403b-9c19-4dc6-9763-bf4b02cf6f96"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,uiautomation,nativewindow,windowsapp"
+		capname="windowsapp"
+		id="c9c2563f-d320-4292-afd5-61d17aaf827e"
+		isrooted="True"
+		name="Calculator"
+		refpath="/winapp[@packagename='Microsoft.WindowsCalculator']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="9de793e8-8818-4bb4-9aba-fdae68cfac6b"
+			name="Num7Button"
+			refimgid="f39cad33-8c4d-4233-89a8-dd240fc65d0c"
+			refpath="/winapp[@packagename='Microsoft.WindowsCalculator']/container/container[@automationid='NumberPad']/button[@automationid='num7Button']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/winapp[@packagename='Microsoft.WindowsCalculator']//button[@automationid='num7Button']
+			</item>
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="17e2b2cd-6c41-46eb-9bdc-3c364864babe"
+			name="SomeText"
+			refimgid="547553bc-6291-4b44-96ef-2b056a0b227d"
+			refpath="/winapp[@packagename='Microsoft.WindowsCalculator']/container/container[@automationid='StandardOperators']/button[@automationid='plusButton']/text[@name='']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/winapp[@packagename='Microsoft.WindowsCalculator']//button[@automationid='plusButton']/text[@name='']
+			</item>
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="08c9158f-66bc-4dfa-9daf-22d8b6815667"
+			name="Text9"
+			refimgid="a57587f9-5f4e-409b-ab76-d248c0253f8c"
+			refpath="/winapp[@packagename='Microsoft.WindowsCalculator']/container/container[@automationid='NumberPad']/button[@automationid='num9Button']/text[@name='9']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/winapp[@packagename='Microsoft.WindowsCalculator']//button[@automationid='num9Button']/text[@name='9']
+			</item>
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="7eb391a5-60fc-457e-b1d5-d7a0eab65724"
+			name="SomeText1"
+			refimgid="01ca3431-7f4a-4682-acd4-12d9efedaaee"
+			refpath="/winapp[@packagename='Microsoft.WindowsCalculator']/container/container[@automationid='StandardOperators']/button[@automationid='multiplyButton']/text[@name='']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/winapp[@packagename='Microsoft.WindowsCalculator']//button[@automationid='multiplyButton']/text[@name='']
+			</item>
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="8d32675d-6699-4aba-88e5-8a86cab288ec"
+			name="SomeText2"
+			refimgid="917a513b-05a7-4ce6-9e16-4ae1925a4c79"
+			refpath="/winapp[@packagename='Microsoft.WindowsCalculator']/container/container[@automationid='StandardFunctions']/button[@automationid='squareRootButton']/text[@name='']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/winapp[@packagename='Microsoft.WindowsCalculator']//button[@automationid='squareRootButton']/text[@name='']
+			</item>
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="71fa8c7b-ef2a-4c5c-b700-ad24a96a73c2"
+			name="NormalOutput"
+			refimgid="6635a4b4-f5f4-4214-bd63-0e110b196350"
+			refpath="/winapp[@packagename='Microsoft.WindowsCalculator']/container[@classname='LandmarkTarget']/text[@automationid='CalculatorResults']/container[@automationid='TextContainer']/text[@automationid='NormalOutput']"
+			robustPath=""
+			searchtimeout="1ms">
+				/winapp[@packagename='Microsoft.WindowsCalculator']/?/?/text[@automationid='CalculatorResults']/?/?/text[@automationid='NormalOutput']
+			</item>
+			<basepath>
+				/winapp[@packagename='Microsoft.WindowsCalculator']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAH9SURBVDhPdZDJTpRBFIV5BSZfQxONJkQURWlw
+iC/hhM3U89//PE9ND6CIvolxwUIXGodESWvEaDTGtXECFMTjvS3ViSlZVHIW9X2nTvX0KG3wOeSu
+oLZ4G8nCLcStZUTNmwgbSwjqS/Dnb8CrXYebLsJJFnDAvNthOkeElMCEwL0gO27B2j1m1JQFcXMZ
+dtTAhY+/cf7DDs6++4XxN9sYe7WF0fYPjDzbwNHH65gp6dCDhizgZt1Pce79DibebiOztoVTL37i
+xPNNDD9Zx9CDbzh87wuyRQ2qPy8L+MmamyLzmsCXBK5u4tjTDQw9/I4j97/i4Mpn7L/zCZN5FYpb
+kwW81aatGtlVr4YqyRQnQcWOUbZilMwIRSOEYico05EEDPMHPVpd6xzeKXKVGkVmuERCSWBGLRhh
+s3uRd4pccdJuLtJLCkYkC4ywQa317kXeKTI3ipynGTk9kAWaX6ft/28tUGvvmRp6J1LMaQFmVV8W
+VOnj9mrN6SHBCfrGY8xUPUwrrizgRv4gAfFOkec0H32ZEP1jPqYIzlYcWVCyEhT/aQ26mVv7T3sY
+GHWQLduYLNmygHfyBwmId4o8RY0DJy0MjugEW7haNGVBnnbyBwlomlpFvkatg8dV7BtWcKVg4nLe
+kAW8c1b1Os8VOxn822h1wUs5HRdz2q6gjT9SQp+y3+nSYwAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

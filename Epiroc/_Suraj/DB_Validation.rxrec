@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="2f05f6ac-49c8-44f2-8334-4a2ccdb723bb"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="DB_Validation"
+	namespace="Epiroc._Suraj">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="False"
+		optional="True"
+		searchpropertyid="60c8053e-13ce-415c-b11a-60a0068e1160">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="36cb546b-427a-4f4a-a0b6-2f56eb5e2d4d"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@controlname='RxMainFrame']//text[@controlname='lblNumberOfPersonsNumber']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				1
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="fd8d7988-f188-4fa9-ab96-795176b0f7ab"
+	name="EpirocRepository"
+	relativepath="..\EpirocRepository.rxrep">
+		<codegen
+		classname="EpirocRepository"
+		namespace="Epiroc">
+		</codegen>
+		<rootfolder
+		id="6f2b0937-858c-4aa0-96dd-4c7a89b06b62"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		DB_Validation.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

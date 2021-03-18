@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+# Ranorex Studio 9.4.0
+VisualStudioVersion = 12.0.20827.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9DC1DA8C-211A-4C71-A574-BB7798B83488}"
+	ProjectSection(SolutionItems) = postProject
+		Ranorex = .\Ranorex.rxsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epiroc", "Epiroc\Epiroc.csproj", "{130859C1-B448-4253-A52A-9000190DC1A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Team5", "Team5\Team5.csproj", "{39040701-F9EB-4EE5-A0FB-A63B991D8BC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{130859C1-B448-4253-A52A-9000190DC1A3}.Debug|x86.Build.0 = Debug|x86
+		{130859C1-B448-4253-A52A-9000190DC1A3}.Debug|x86.ActiveCfg = Debug|x86
+		{130859C1-B448-4253-A52A-9000190DC1A3}.Release|x86.Build.0 = Release|x86
+		{130859C1-B448-4253-A52A-9000190DC1A3}.Release|x86.ActiveCfg = Release|x86
+		{39040701-F9EB-4EE5-A0FB-A63B991D8BC3}.Debug|x86.Build.0 = Debug|x86
+		{39040701-F9EB-4EE5-A0FB-A63B991D8BC3}.Debug|x86.ActiveCfg = Debug|x86
+		{39040701-F9EB-4EE5-A0FB-A63B991D8BC3}.Release|x86.Build.0 = Release|x86
+		{39040701-F9EB-4EE5-A0FB-A63B991D8BC3}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+EndGlobal

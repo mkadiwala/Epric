@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="6a3591f0-97bb-4bfa-88a3-91e7ae3572d0"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Image_Checkbox"
+	namespace="Epiroc">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="6;11"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="1757e580-5bde-4dd9-ac01-919215c979cf"
+		sx="910"
+		sy="457"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c73b7c3e-c39f-48d8-b1a3-ee18cc7feb17"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@controlname='RxMainFrame']//checkbox[@controlname='chkShowImage']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="fd8d7988-f188-4fa9-ab96-795176b0f7ab"
+	name="EpirocRepository"
+	relativepath="EpirocRepository.rxrep">
+		<codegen
+		classname="EpirocRepository"
+		namespace="Epiroc">
+		</codegen>
+		<rootfolder
+		id="6f2b0937-858c-4aa0-96dd-4c7a89b06b62"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Image_Checkbox.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

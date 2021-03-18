@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="49e7ac1b-2bc6-4cde-a23c-40c6650ee8aa"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="DB_Delete"
+	namespace="Epiroc._Suraj">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="38;8"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="b49c16c7-4b5d-4c22-815a-1c0512945f0c"
+		sx="1255"
+		sy="637"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="cbf9c831-8d0d-4016-b364-837e17d8e71d"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@controlname='RxMainFrame']//button[@controlname='btnDeletePerson']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message="User Deleted"
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="edefbad9-8451-4518-9181-7fe437adc867">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	id="fd8d7988-f188-4fa9-ab96-795176b0f7ab"
+	name="EpirocRepository"
+	relativepath="..\EpirocRepository.rxrep">
+		<codegen
+		classname="EpirocRepository"
+		namespace="Epiroc">
+		</codegen>
+		<rootfolder
+		id="6f2b0937-858c-4aa0-96dd-4c7a89b06b62"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		DB_Delete.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

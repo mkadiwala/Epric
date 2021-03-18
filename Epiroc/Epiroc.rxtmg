@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="Epiroc"
+      id="1e83557c-5383-483b-9127-10fa08f34874"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="Epiroc"
+      id="1e83557c-5383-483b-9127-10fa08f34874"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

@@ -1,0 +1,17 @@
+[
+  {
+    "Enabled": "True",
+    "TestSuite": "Epiroc",
+    "RunConfig": "Thurs"
+  },
+  {
+    "Enabled": "False",
+    "TestSuite": "Suraj",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "Nirupan",
+    "RunConfig": "Reg"
+  }
+]
