@@ -518,13 +518,6 @@
       <id>fbda2e4d-52b7-4df0-81fc-72de6325af92</id>
       <recordtableid>d0766fb1-5392-42b1-aeb1-a1f7dc06e6fd</recordtableid>
     </None>
-    <Content Include="Desktop.xlsx">
-      <Link>Desktop.xlsx</Link>
-      <BoundTo>992ace32-b211-4925-be43-681e1f2b0e3c</BoundTo>
-      <DependentUpon>Epiroc.rxtst</DependentUpon>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <id>5635c9b0-3f8c-4080-ba3a-0ac1c81583d4</id>
-    </Content>
     <Content Include="Epiroc.rxsqc">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <id>1eeb3996-1fc7-48bf-abb5-af5295be3e82</id>

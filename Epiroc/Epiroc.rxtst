@@ -297,7 +297,7 @@
 			</testcase>
 			<testcase
 			id="82ae95ba-ef1d-406f-8b6b-2cac5f5f35bf"
-			name="FullTest">
+			name="123FullTest">
 			</testcase>
 			<testmodule
 			id="8852c096-4963-4066-af37-4488426dc492"
@@ -573,7 +573,7 @@
 				name="Epiroc">
 					<testcase
 					id="82ae95ba-ef1d-406f-8b6b-2cac5f5f35bf"
-					name="FullTest">
+					name="123FullTest">
 						<testmodule
 						id="d58d3c0f-42e0-4313-b45d-09ea36c51be5"
 						name="FullTest">
